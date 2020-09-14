@@ -4,3 +4,5 @@
 ```bash
 curl -SsL -o ~/.bash_aliases https://github.com/Technetium1/dotfiles/raw/master/.bash_aliases && chmod 644 ~/.bash_aliases
 ```
+
+![](https://i.imgur.com/lnnfyM5.gif)
