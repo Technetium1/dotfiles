@@ -4,7 +4,7 @@
 #    . ~/.bash_aliases
 #fi
 
-alias ll='ls -Flagh --color=auto'
+alias ll='ls -Flaghc --color=auto'
 alias filecount='find . -type f | wc -l'
 alias grep='grep --color=auto --exclude-dir=\.vscode'
 alias cls='clear'
