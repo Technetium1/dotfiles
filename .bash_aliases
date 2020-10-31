@@ -18,9 +18,9 @@ alias mv='mv -i'
 alias cp='cp -i'
 
 # Quantum tmux
-#alias quantum="tmux a -t Quantum 2>/dev/null || tmux new-session -d -s Quantum ; tmux detach -s Quantum ; quantumrun"
+#alias quantum="tmux a -t quantum 2>/dev/null || tmux new-session -d -s quantum ; tmux detach -s Quantum ; quantumrun"
 #alias quantumrun="tmux send-keys -t Quantum.0 'cd /home/tech/QuantumJump && pipenv run python run.py' Enter"
 
 # xmrig
 #alias xmrig="tmux a -t xmrig 2>/dev/null || tmux new-session -d -s xmrig ; tmux detach -s xmrig ; xmrigrun"
-#alias xmrigrun="tmux send-keys -t xmrig.0 'cd /home/tech/xmrig/build && sudo ./xmrig' Enter"
+#alias xmrigrun="tmux send-keys -t xmrig 'cd /home/tech/xmrig/build && sudo ./xmrig' Enter"
