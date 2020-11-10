@@ -67,6 +67,6 @@
         "no-duplicate-imports": warn,
         "no-useless-computed-key": error,
         "object-shorthand": ["error", "never"],
-        "prefer-const": error,
+        "prefer-const": error
     }
 }
