@@ -1,5 +1,4 @@
 filetype plugin indent on
-
 set cursorline
 set encoding=utf-8
 set hlsearch
@@ -14,5 +13,4 @@ set ttyfast
 set undolevels=999
 set virtualedit=all
 set visualbell
-
 syntax on
