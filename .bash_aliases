@@ -24,7 +24,9 @@ alias cp='cp -i'
 # XMRIG
 #alias xmrig="tmux a -t xmrig 2>/dev/null || tmux new-session -d -s xmrig ; tmux detach -s xmrig ; xmrigrun"
 #alias xmrigrun="tmux send-keys -t xmrig.0 'cd ~/xmrig/build && sudo ./xmrig' Enter"
+#alias xmrigupdate="cd ~/xmrig && git pull && cd build && cmake .. && make -j$(nproc)"
 
 # XMRIG PROXY
 #alias xmrigproxy="tmux a -t xmrigproxy 2>/dev/null || tmux new-session -d -s xmrigproxy ; tmux detach -s xmrigproxy ; xmrigproxyrun"
 #alias xmrigproxyrun="tmux send-keys -t xmrigproxy.0 'cd ~/xmrig-proxy/build && sudo ./xmrig-proxy' Enter"
+#alias xmrigproxyupdate="cd ~/xmrig-proxy && git pull && cd build && cmake .. && make -j$(nproc)"
