@@ -17,10 +17,14 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 
-# Quantum tmux
+# QUANTUM TMUX
 #alias quantum="tmux a -t quantum 2>/dev/null || tmux new-session -d -s quantum ; tmux detach -s quantum ; quantumrun"
 #alias quantumrun="tmux send-keys -t quantum.0 'cd ~/QuantumJump && pipenv run python run.py' Enter"
 
-# xmrig
+# XMRIG
 #alias xmrig="tmux a -t xmrig 2>/dev/null || tmux new-session -d -s xmrig ; tmux detach -s xmrig ; xmrigrun"
 #alias xmrigrun="tmux send-keys -t xmrig.0 'cd ~/xmrig/build && sudo ./xmrig' Enter"
+
+# XMRIG PROXY
+#alias xmrigproxy="tmux a -t xmrigproxy 2>/dev/null || tmux new-session -d -s xmrigproxy ; tmux detach -s xmrigproxy ; xmrigproxyrun"
+#alias xmrigproxyrun="tmux send-keys -t xmrigproxy.0 'cd ~/xmrig-proxy/build && sudo ./xmrig-proxy' Enter"
