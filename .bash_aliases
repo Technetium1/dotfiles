@@ -30,3 +30,7 @@ alias cp='cp -i'
 #alias xmrigproxy="tmux a -t xmrigproxy.0 2>/dev/null || tmux new-session -d -s xmrigproxy ; tmux detach -s xmrigproxy ; xmrigproxyrun"
 #alias xmrigproxyrun="tmux send-keys -t xmrigproxy.0 'cd ~/xmrig-proxy/build && sudo ./xmrig-proxy' Enter"
 #alias xmrigproxyupdate="cd ~/xmrig-proxy && git pull && cd build && cmake .. && make -j$(nproc)"
+
+# REDBOT
+#alias techbot="tmux a -t techbot.0 2>/dev/null || tmux new-session -d -s techbot ; tmux detach -s techbot ; techbotrun"
+#alias techbotrun="tmux send-keys -t techbot.0 'cd ~ && pyenv shell red && redbot TechBot' Enter"
