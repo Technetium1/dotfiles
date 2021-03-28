@@ -1,0 +1,19 @@
+! 1/6/2020 https://www.serverhunter.com
+www.serverhunter.com##.advertisement.offer-row
+www.serverhunter.com##.dont-slide.advertisement
+
+! 4/6/2020 https://www.namecheap.com
+www.namecheap.com##.unavailable
+
+! 5/10/2020 https://www.bhphotovideo.com
+www.bhphotovideo.com##.list_1XoEza2gYIWWs8IA3SwyVs.banner_3DX1CnayaxBmik9Fk8KWr9.experts_2KluKs2SlzLhBKVXXEjwCj
+www.bhphotovideo.com##.hero_2ANzcKoHl-UFolhX3xtzGD.cmsBannerCss_3Xm2OvkROX2q6hXn5CSqOM
+
+! 2020-09-03 https://www.geekvape.com
+www.geekvape.com##.warning
+
+! 2020-10-28 Decancer google
+www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
+
+! 2021-02-04 Evil tracker github.com/greatsuspender/thegreatsuspender/issues/1263
+||cdn.owebanalytics.com^
