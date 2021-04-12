@@ -33,4 +33,4 @@ alias cp='cp -i'
 
 # REDBOT
 #alias techbot="tmux a -t techbot.0 2>/dev/null || tmux new-session -d -s techbot ; tmux detach -s techbot ; techbotrun"
-#alias techbotrun="tmux send-keys -t techbot.0 'cd ~ && pyenv shell red && redbot TechBot' Enter"
+#alias techbotrun="tmux send-keys -t techbot.0 'cd ~ && pyenv shell red && while :; do redbot TechBot; sleep 5; done' Enter"
