@@ -33,6 +33,7 @@ inkscape
 iperf3
 libreoffice-fresh
 licecap
+nmap
 nuclear
 openssh
 osfmount
