@@ -11,6 +11,5 @@ set number
 set title
 set ttyfast
 set undolevels=999
-set virtualedit=all
 set visualbell
 syntax on
