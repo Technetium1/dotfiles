@@ -9,17 +9,25 @@ alias filecount='find . -type f | wc -l'
 alias grep='grep --color=auto --exclude-dir=\.vscode'
 alias cls='clear'
 
-# Dangerous
+# DANGEROUS PIP DO NOT USE
 #alias updatepip='pip3.9 freeze | cut -d'=' -f1 | xargs -n1 sudo pip3.9 install -U'
 
-# Make some things interactive
+# MAKE INTERACTIVE
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 
-# QUANTUM TMUX
-#alias quantum="tmux a -t quantum.0 2>/dev/null || tmux new-session -d -s quantum ; tmux detach -s quantum ; quantumrun"
-#alias quantumrun="tmux send-keys -t quantum.0 'cd ~/QuantumJump && pipenv run python run.py' Enter"
+# COMMON FLAGS
+alias ll='ls -Flaghc --color=auto'
+alias filecount='find . -type f | wc -l'
+alias grep='grep --color=auto --exclude-dir=\.vscode'
+alias cls='clear'
+alias df='df -h'
+
+# PACKAGE MANAGEMENT
+#alias update='sudo powerpill -Syu'
+# Remove uninstalled applications from cache, leave 0
+#alias cacheclear='sudo paccache -ruk0'
 
 # XMRIG
 #alias xmrig="tmux a -t xmrig.0 2>/dev/null || tmux new-session -d -s xmrig ; tmux detach -s xmrig ; xmrigrun"
@@ -32,5 +40,9 @@ alias cp='cp -i'
 #alias xmrigproxyupdate="cd ~/xmrig-proxy && git pull && cd build && cmake .. && make -j$(nproc)"
 
 # REDBOT
+#alias usejava11="sudo archlinux-java set java-11-openjdk"
 #alias techbot="tmux a -t techbot.0 2>/dev/null || tmux new-session -d -s techbot ; tmux detach -s techbot ; techbotrun"
-#alias techbotrun="tmux send-keys -t techbot.0 'cd ~ && pyenv shell red && while :; do redbot TechBot; sleep 5; done' Enter"
+#alias techbotrun="tmux send-keys -t techbot.0 'cd ~ && pyenv local 3.8.10 && pyenv shell red && while :; do redbot TechBot; sleep 5; done' Enter"
+
+# GAMES
+#alias gw2='~/Games/GW2/play.sh'
