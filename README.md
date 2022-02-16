@@ -5,7 +5,7 @@
 
 **.bash_aliases**
 ```bash
-curl -SsL -o ~/.bash_aliases https://github.com/Technetium1/dotfiles/raw/master/.bash_aliases && chmod 644 ~/.bash_aliases && source ~/.bashrc
+curl -SsL -o ~/.bash_aliases https://github.com/Technetium1/dotfiles/raw/master/.bash_aliases && chmod 644 ~/.bash_aliases && source ~/.bash_aliases
 ```
 
 ---
