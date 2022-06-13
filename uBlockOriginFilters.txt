@@ -9,10 +9,6 @@ www.namecheap.com##.unavailable
 www.bhphotovideo.com##.list_1XoEza2gYIWWs8IA3SwyVs.banner_3DX1CnayaxBmik9Fk8KWr9.experts_2KluKs2SlzLhBKVXXEjwCj
 www.bhphotovideo.com##.hero_2ANzcKoHl-UFolhX3xtzGD.cmsBannerCss_3Xm2OvkROX2q6hXn5CSqOM
 
-! 2020-08-26 awakon spamheader
-awakonfcu.net##.mtsnb-container-outer
-awakonfcu.net###mtsnb-3074
-
 ! 2020-09-03 https://www.geekvape.com
 www.geekvape.com##.warning
 
@@ -24,3 +20,14 @@ www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
 
 ! 2021-04-18 https://www.ulefone.com
 www.ulefone.com##.add_msg_w
+
+! Fuck FauxNews
+||foxnews.com^
+
+! 2022-02-22 https://1337x.to
+1337x.to##center:nth-of-type(1)
+1337x.to##center:nth-of-type(2)
+
+! Medium cookie notifications
+*##body > div > div:has(*:has-text(/To make Medium work.*Privacy Policy.*Cookie Policy/i))
+
