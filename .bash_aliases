@@ -54,7 +54,7 @@ alias termdown='termdown -c 10 -v en-us -f colossal -q 5 -t "Time Up!"'
 #alias update='bash /usr/bin/garuda-update && tldr --update'
 #alias updateall='sudo powerpill -Syu'
 #alias updatekeyring='sudo pacman -Sy archlinux-keyring chaotic-keyring --needed'
-#alias mirrorgen='sudo reflector --verbose -c US,CA --connection-timeout 4 --download-timeout 3 --protocol https --age 1 --sort rate --number 350 --fastest 50 --threads 24 --save /etc/pacman.d/mirrorlist'
+#alias mirrorgen='sudo reflector --verbose -c US,CA --connection-timeout 4 --download-timeout 3 --protocol https --age 1 --sort rate --number 350 --fastest 50 --threads 24 --save /etc/pacman.d/mirrorlist --exclude r"mirror\.cyberbits\.asia"'
 #alias watchaurto='watch -n 1 systemctl status update-aurto.service'
 #alias aurtobuild='updpkgsums PKGBUILD ; aur build -d aurto --chroot --makepkg-conf=/etc/aurto/makepkg-chroot.conf --pacman-conf=/etc/aurto/pacman-chroot.conf PKGBUILD -f --clean'
 
