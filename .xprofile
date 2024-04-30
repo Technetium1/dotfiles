@@ -1,0 +1,9 @@
+#!/bin/sh
+#export GOOGLE_API_KEY=""
+#export GOOGLE_DEFAULT_CLIENT_ID=""
+#export GOOGLE_DEFAULT_CLIENT_SECRET=""
+
+# Add mode to rotate old tiny screen
+#xrandr --newmode "1280x1024_75" 138.75 1280 1368 1504 1728 1024 1027 1034 1072 -hsync +vsync
+#xrandr --addmode DisplayPort-1 1280x1024_75
+#xrandr --output DisplayPort-1 --mode 1280x1024_75
