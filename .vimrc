@@ -1,5 +1,6 @@
 filetype plugin indent on
 syntax enable
+set nocompatible
 set cursorline
 set encoding=utf-8
 set hlsearch
