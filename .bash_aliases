@@ -69,6 +69,7 @@ alias radeontop='radeontop --color'
 alias uptime='uptime --pretty'
 alias dirs='dirs -v'
 alias tb='nc termbin.com 9999'
+alias ytget='yt-dlp --progress --windows-filenames -f bestvideo+bestaudio --embed-metadata --write-subs --no-write-automatic-subs --sub-langs en'
 
 ####################
 # PACKAGE MANAGEMENT
